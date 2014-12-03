@@ -1,5 +1,6 @@
 
-public class Comedy extends Fiction{
+public class Comedy extends Fiction
+{
 	
 	public Comedy()
 	{

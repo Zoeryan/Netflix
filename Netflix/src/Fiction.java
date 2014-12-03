@@ -1,5 +1,6 @@
 
-public abstract class Fiction extends Show{
+public abstract class Fiction extends Show
+{
 	
 	@Override
 	public void isReal()

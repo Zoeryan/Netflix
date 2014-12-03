@@ -1,5 +1,6 @@
 
-public abstract class NonFiction extends Show {
+public abstract class NonFiction extends Show 
+{
 	@Override
 	public void isReal()
 	{

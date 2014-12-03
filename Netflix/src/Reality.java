@@ -1,5 +1,6 @@
 
-public class Reality extends NonFiction{
+public class Reality extends NonFiction
+{
 	public Reality()
 	{
 		showName = "Jersey Shore";

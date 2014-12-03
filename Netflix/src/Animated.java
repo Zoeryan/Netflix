@@ -1,5 +1,6 @@
 
-public interface Animated {
+public interface Animated 
+{
 	
 	public void isAnimated();
 

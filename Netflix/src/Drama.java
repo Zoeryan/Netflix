@@ -1,5 +1,6 @@
 
-public class Drama extends Fiction{
+public class Drama extends Fiction
+{
 	public Drama()
 	{
 		showName = "Criminal Minds";

@@ -1,5 +1,6 @@
 
-public class GameShow extends NonFiction{
+public class GameShow extends NonFiction
+{
 	public GameShow()
 	{
 		showName = "Wheel of Fortune";
