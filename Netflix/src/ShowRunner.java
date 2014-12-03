@@ -1,14 +1,26 @@
-import java.util.Scanner;
 
 public class ShowRunner {
 	
 	public static void main(String[] args)
+	
 	{
-	Scanner file = new Scanner(System.in);
-	System.out.println("What is your favorite show?");
-	String inputShow = file.next();
+	Show [] show = new Show [6];
+	show[0] = new Drama();
+	show[1] = new Reality();
+	show[2] = new Sports();
+	show[3] = new GameShow();
+	show[4] = new Comedy();
+	show[5] = new Cartoon();
 	
-	System.out.println("Is " + inputShow + " a 1. Drama 2. Comedy 3. Reality 4. GameShow 5. Sport");
 	
+	for(int i = 0; i < show.length; i++)
+		{
+		show[i].giveSummary();
+		show[i].isReal();
+		show[i].isAired();
+		System.out.println();
+		show[i].myAnimation.isAnimated();
+		
+		}
 	}
 }
